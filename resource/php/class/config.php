@@ -1,10 +1,10 @@
 <?php
 
 class config{
-    private $user = 'root';
-    private $password = '';
-    // private $user = 'ceumnlre_root';
-    // private $password = 'Eg5c272klko5';
+    //private $user = 'root';
+    //private $password = '';
+     private $user = 'ceumnlre_root';
+     private $password = 'Eg5c272klko5';
     public $pdo = null;
 
     public function con(){

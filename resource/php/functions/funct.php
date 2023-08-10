@@ -43,7 +43,7 @@ function CheckSuccess($status){
     }elseif($status =='notElig'){
       echo '<div class="alert alert-danger alert-dismissible fade show col-12" role="alert">
               <b>Scholarship Application is not eligible.</br></b> We are sorry to inform you that you are not qualified for the scholarship that you have applied for.<br>
-              Reason: <b><a href="#">GWA is higher than 1.504</a>.</b>
+              Reason: <b><a href="#">GWA is higher than (1.504 for undergraduates), (1.154 for Graduate School) and (2.04 for Medicine)</a>.</b>
               <br>If you think this is a mistake please contact the following person:<br />
               for CEU Manila : mmcombine@ceu.edu.ph <br />
               for CEU Malolos : kdeleon@ceu.edu.ph <br/>

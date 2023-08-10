@@ -215,7 +215,9 @@ if(!empty($_POST)) {
       }else{
 
       }
-  }elseif ($cgrant == "University Academic Scholarship (Medicine)") {
+  }
+  
+  if ($cgrant == "University Academic Scholarship (Medicine)") {
       if($GWA <= 1.504 ){
         $cgrant = "University Full Academic Scholarship (Medicine)";
         $duration = "Valid for 1 School Year";
@@ -230,7 +232,9 @@ if(!empty($_POST)) {
       }else{
 
       }
-  }elseif ($cgrant == "University Academic Scholarship (GS)") {
+  }
+  
+  if ($cgrant == "University Academic Scholarship (GS)") {
       if($GWA <= 1.154 ){
         $cgrant = "University Full Academic Scholarship (GS)";
         $duration = getSemester2()." ".getSY2();

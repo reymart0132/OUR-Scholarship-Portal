@@ -1,4 +1,16 @@
 <?php
+
+function callAppAlert(){
+  echo '<div class="alert alert-light alert-dismissible fade show" role="alert">
+  <strong>*Attention!</strong> You are applying for <b class="text-danger">Manila Campus Scholarship</b>.
+  <br>For Makati Scholarships please visit: <a href="www.ceumktregistrar.com/ourscholar/index">www.ceumktregistrar.com/ourscholar/index</a>
+  <br>For Malolos Scholarships please visit:<a href="www.ceumlsregistrar.com/ourscholar/index">www.ceumlsregistrar.com/ourscholar/index</a>
+
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
+}
 function CheckSuccess($status){
     if($status =='Success'){
         echo '<div class="alert alert-success alert-dismissible fade show col-12" role="alert">

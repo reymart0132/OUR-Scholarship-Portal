@@ -24,6 +24,7 @@ $view = new view();
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
           <div class="navbar-nav ml-auto">
             <a href="index" class="nav-item nav-link navitem ml-4">Scholarship Portal </a>
             <a href="unvscholarship" class="nav-item nav-link navitem ml-4 active">University Scholarship</a>
@@ -35,6 +36,7 @@ $view = new view();
   <div class="container-fluid mt-3 pt-4 slide-in-left bg-light rounded shadow-sm">
     <div class="row">
         <div class="col-12">
+          <?php callAppAlert() ?>
             <h6 class="text-center mb-4">New Application for University Scholarship (Continuing)</h6>
         </div>
         <?php if (!empty($_GET)) {

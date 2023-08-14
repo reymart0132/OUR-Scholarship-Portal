@@ -34,6 +34,7 @@ $view = new view();
   </div>
   <div class="container-fluid mt-3 pt-4 slide-in-left bg-light rounded shadow-sm">
     <div class="row">
+      <?php callAppAlert() ?>
         <div class="col-12">
             <h6 class="text-center mb-4">New Application for Entrance Scholarship</h6>
         </div>

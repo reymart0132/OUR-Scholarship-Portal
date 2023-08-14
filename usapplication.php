@@ -35,6 +35,7 @@ $view = new view();
   <div class="container-fluid mt-3 pt-4 slide-in-left bg-light rounded shadow-sm">
     <div class="row">
         <div class="col-12">
+          <?php callAppAlert()?>
             <h6 class="text-center mb-4">New Application for University Scholarship (Continuing)</h6>
         </div>
         <?php if (!empty($_GET)) {
